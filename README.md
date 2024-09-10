@@ -1,3 +1,6 @@
+import java.util.ArrayList;
+import java.util.List;
+
 public class Main {
     // 定义体积重基数
     private static final int VOLUME_WEIGHT_BASE = 250;
@@ -51,7 +54,7 @@ public class Main {
 
         return types;  // 返回符合的所有类型
     }
-    
+
     public static void main(String[] args) {
         Main obj = new Main();
 
